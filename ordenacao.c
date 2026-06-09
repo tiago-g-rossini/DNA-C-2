@@ -41,7 +41,7 @@ void ordenarPorTamanho(Sequencia *banco, int total) {
     /*algoritmo de ordenação bubblesort*/
     for(int i = 1; i < total; i++){
         /*o laço interno vai comparar elementos adjacentes até a posição já ordenada*/
-        for(int j = 0; j < total - i - 1; j++){
+        for(int j = 0; j < total - 1 - i; j++){
             /*verifica se o tamanho do elemento atual é maior que o proximo*/
             if(banco[j].tamanho > banco[j+1].tamanho) {
                 /*realiza a troca dos elementos de posição*/
