@@ -39,7 +39,7 @@ void ordenarPorTamanho(Sequencia *banco, int total) {
     /*variavel auxiliar para troca de elementos*/
     Sequencia aux;
     /*algoritmo de ordenação bubblesort*/
-    for(int i = 1; i < total; i++){
+    for(int i = 0; i < total; i++){
         /*o laço interno vai comparar elementos adjacentes até a posição já ordenada*/
         for(int j = 0; j < total - i - 1; j++){
             /*verifica se o tamanho do elemento atual é maior que o proximo*/
