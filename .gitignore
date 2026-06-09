@@ -1,0 +1,45 @@
+### CLion / JetBrains Template ###
+# Pasta interna do CLion (contém caches, indexação e configurações locais)
+.idea/
+
+# Ignora configurações específicas de usuários na pasta .idea, mas...
+# Se você trabalha em equipe, pode querer commitar o arquivo .idea/runConfigurations/
+# para compartilhar configurações de execução. Se for o caso, desative a linha abaixo:
+.idea/**/*.xml
+
+# Arquivos de usuário e tarefas locais
+*.iws
+*.iml
+*.ipr
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/shelf/
+
+### CMake / Build Directories ###
+# O CLion geralmente cria essas pastas para compilar o projeto
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+build/
+out/
+
+### Compilação e Binários ###
+# Arquivos de objeto e bibliotecas geradas
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Executáveis (recomenda-se ignorar pelo nome se não tiverem extensão,
+# mas estas são as extensões comuns de build)
+*.exe
+*.out
+*.app
+
+### Arquivos de Sistema e Log (Opcional) ###
+.DS_Store
+Thumbs.db
+*.log
